@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="#020617"/>
+
+  <!-- Boundary frame -->
+  <rect x="6" y="6" width="52" height="52" rx="12"
+        fill="none"
+        stroke="#38bdf8"
+        stroke-width="2"
+        stroke-dasharray="4 3"/>
+
+  <!-- Scales of justice (minimal, geometric) -->
+  <!-- Center pillar -->
+  <rect x="31" y="18" width="2" height="24" fill="white"/>
+
+  <!-- Top beam -->
+  <rect x="20" y="18" width="24" height="2" fill="white"/>
+
+  <!-- Left scale -->
+  <line x1="24" y1="20" x2="20" y2="30" stroke="white" stroke-width="2"/>
+  <rect x="16" y="30" width="8" height="2" fill="white"/>
+
+  <!-- Right scale -->
+  <line x1="40" y1="20" x2="44" y2="30" stroke="white" stroke-width="2"/>
+  <rect x="40" y="30" width="8" height="2" fill="white"/>
+
+  <!-- Boundary interruption (signature) -->
+  <rect x="31" y="6" width="2" height="12" fill="#020617"/>
+</svg>
