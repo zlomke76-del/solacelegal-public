@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="840" viewBox="0 0 1400 840" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Original U.S. Military Style Flag SVG</title>
+  <desc id="desc">A patriotic U.S. military inspired flag graphic with stars, stripes, shield, wings, and tactical colors. This is an original design and not an official U.S. military emblem.</desc>
+
+  <defs>
+    <linearGradient id="navyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061427"/>
+      <stop offset="55%" stop-color="#0b1f3f"/>
+      <stop offset="100%" stop-color="#020712"/>
+    </linearGradient>
+
+    <linearGradient id="steelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8edf3"/>
+      <stop offset="50%" stop-color="#9aa7b5"/>
+      <stop offset="100%" stop-color="#eef3f8"/>
+    </linearGradient>
+
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8d111b"/>
+      <stop offset="50%" stop-color="#c6202e"/>
+      <stop offset="100%" stop-color="#7a0d16"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+
+    <filter id="innerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#ffffff" flood-opacity="0.16"/>
+    </filter>
+
+    <pattern id="subtleGrid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.035"/>
+    </pattern>
+
+    <clipPath id="bannerClip">
+      <rect x="80" y="90" width="1240" height="660" rx="36"/>
+    </clipPath>
+
+    <symbol id="fivePointStar" viewBox="-50 -50 100 100">
+      <path d="M0,-47 L13.8,-14.8 L48,-14.8 L20.7,6 L30.5,39.5 L0,20 L-30.5,39.5 L-20.7,6 L-48,-14.8 L-13.8,-14.8 Z"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="840" fill="#050914"/>
+  <rect x="80" y="90" width="1240" height="660" rx="36" fill="url(#navyGrad)" stroke="#283a58" stroke-width="4"/>
+  <rect x="80" y="90" width="1240" height="660" rx="36" fill="url(#subtleGrid)" opacity="0.9"/>
+
+  <!-- Distressed flag stripes -->
+  <g clip-path="url(#bannerClip)" opacity="0.96">
+    <rect x="80" y="90" width="1240" height="660" fill="#08162c"/>
+    <rect x="80" y="90" width="1240" height="51" fill="url(#redGrad)"/>
+    <rect x="80" y="192" width="1240" height="51" fill="url(#redGrad)"/>
+    <rect x="80" y="294" width="1240" height="51" fill="url(#redGrad)"/>
+    <rect x="80" y="396" width="1240" height="51" fill="url(#redGrad)"/>
+    <rect x="80" y="498" width="1240" height="51" fill="url(#redGrad)"/>
+    <rect x="80" y="600" width="1240" height="51" fill="url(#redGrad)"/>
+    <rect x="80" y="702" width="1240" height="51" fill="url(#redGrad)"/>
+
+    <rect x="80" y="90" width="515" height="355" fill="#07152f"/>
+    <g fill="#e8edf3" opacity="0.9">
+      <use href="#fivePointStar" x="140" y="140" width="24" height="24"/>
+      <use href="#fivePointStar" x="220" y="140" width="24" height="24"/>
+      <use href="#fivePointStar" x="300" y="140" width="24" height="24"/>
+      <use href="#fivePointStar" x="380" y="140" width="24" height="24"/>
+      <use href="#fivePointStar" x="460" y="140" width="24" height="24"/>
+      <use href="#fivePointStar" x="180" y="205" width="24" height="24"/>
+      <use href="#fivePointStar" x="260" y="205" width="24" height="24"/>
+      <use href="#fivePointStar" x="340" y="205" width="24" height="24"/>
+      <use href="#fivePointStar" x="420" y="205" width="24" height="24"/>
+      <use href="#fivePointStar" x="500" y="205" width="24" height="24"/>
+      <use href="#fivePointStar" x="140" y="270" width="24" height="24"/>
+      <use href="#fivePointStar" x="220" y="270" width="24" height="24"/>
+      <use href="#fivePointStar" x="300" y="270" width="24" height="24"/>
+      <use href="#fivePointStar" x="380" y="270" width="24" height="24"/>
+      <use href="#fivePointStar" x="460" y="270" width="24" height="24"/>
+      <use href="#fivePointStar" x="180" y="335" width="24" height="24"/>
+      <use href="#fivePointStar" x="260" y="335" width="24" height="24"/>
+      <use href="#fivePointStar" x="340" y="335" width="24" height="24"/>
+      <use href="#fivePointStar" x="420" y="335" width="24" height="24"/>
+      <use href="#fivePointStar" x="500" y="335" width="24" height="24"/>
+      <use href="#fivePointStar" x="140" y="400" width="24" height="24"/>
+      <use href="#fivePointStar" x="220" y="400" width="24" height="24"/>
+      <use href="#fivePointStar" x="300" y="400" width="24" height="24"/>
+      <use href="#fivePointStar" x="380" y="400" width="24" height="24"/>
+      <use href="#fivePointStar" x="460" y="400" width="24" height="24"/>
+    </g>
+
+    <!-- dark tactical wash -->
+    <path d="M80 90 C285 178 480 115 710 210 C910 292 1080 244 1320 350 V750 H80 Z" fill="#020712" opacity="0.24"/>
+    <path d="M80 750 C330 645 540 702 776 592 C1012 482 1160 536 1320 458 V750 Z" fill="#ffffff" opacity="0.055"/>
+  </g>
+
+  <!-- Central military-inspired crest -->
+  <g filter="url(#softShadow)">
+    <!-- Wings -->
+    <g fill="url(#steelGrad)" stroke="#202b3d" stroke-width="4" opacity="0.96">
+      <path d="M620 390 C500 325 390 294 252 278 C348 340 444 391 590 430 Z"/>
+      <path d="M602 440 C470 392 352 376 215 390 C334 443 458 476 604 473 Z"/>
+      <path d="M616 493 C490 482 382 502 266 558 C396 558 505 544 626 520 Z"/>
+      <path d="M780 390 C900 325 1010 294 1148 278 C1052 340 956 391 810 430 Z"/>
+      <path d="M798 440 C930 392 1048 376 1185 390 C1066 443 942 476 796 473 Z"/>
+      <path d="M784 493 C910 482 1018 502 1134 558 C1004 558 895 544 774 520 Z"/>
+    </g>
+
+    <!-- Shield outer -->
+    <path d="M700 230
+             C778 278 844 295 924 298
+             V455
+             C924 584 830 661 700 708
+             C570 661 476 584 476 455
+             V298
+             C556 295 622 278 700 230 Z"
+          fill="#07152b" stroke="#e8edf3" stroke-width="10"/>
+
+    <!-- Shield inner stripes -->
+    <clipPath id="shieldClip">
+      <path d="M700 248
+               C768 288 829 304 899 307
+               V452
+               C899 560 819 632 700 677
+               C581 632 501 560 501 452
+               V307
+               C571 304 632 288 700 248 Z"/>
+    </clipPath>
+    <g clip-path="url(#shieldClip)">
+      <rect x="500" y="248" width="400" height="430" fill="#0c2347"/>
+      <rect x="500" y="312" width="400" height="48" fill="#b31b29"/>
+      <rect x="500" y="408" width="400" height="48" fill="#b31b29"/>
+      <rect x="500" y="504" width="400" height="48" fill="#b31b29"/>
+      <rect x="500" y="600" width="400" height="48" fill="#b31b29"/>
+      <rect x="500" y="248" width="400" height="430" fill="url(#subtleGrid)" opacity="0.4"/>
+    </g>
+
+    <!-- Crest star -->
+    <use href="#fivePointStar" x="628" y="321" width="144" height="144" fill="#eef3f8" filter="url(#innerGlow)"/>
+    <use href="#fivePointStar" x="654" y="347" width="92" height="92" fill="#07152b" opacity="0.92"/>
+
+    <!-- Swords -->
+    <g stroke="#e8edf3" stroke-width="10" stroke-linecap="round">
+      <path d="M590 620 L810 292"/>
+      <path d="M810 620 L590 292"/>
+    </g>
+    <g stroke="#9aa7b5" stroke-width="4" stroke-linecap="round">
+      <path d="M590 620 L810 292"/>
+      <path d="M810 620 L590 292"/>
+    </g>
+    <g fill="#e8edf3" stroke="#202b3d" stroke-width="4">
+      <rect x="562" y="606" width="70" height="18" rx="6" transform="rotate(-55 597 615)"/>
+      <rect x="768" y="606" width="70" height="18" rx="6" transform="rotate(55 803 615)"/>
+    </g>
+
+    <!-- Top star crown -->
+    <g fill="#e8edf3">
+      <use href="#fivePointStar" x="675" y="170" width="50" height="50"/>
+      <use href="#fivePointStar" x="610" y="195" width="34" height="34" opacity="0.86"/>
+      <use href="#fivePointStar" x="756" y="195" width="34" height="34" opacity="0.86"/>
+    </g>
+  </g>
+
+  <!-- Bottom label -->
+  <g>
+    <rect x="365" y="718" width="670" height="58" rx="29" fill="#050914" opacity="0.74" stroke="#45566f" stroke-width="2"/>
+    <text x="700" y="755"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="28"
+          font-weight="800"
+          letter-spacing="7"
+          fill="#eef3f8">SERVICE • HONOR • READINESS</text>
+  </g>
+
+  <!-- Border highlights -->
+  <rect x="96" y="106" width="1208" height="628" rx="28" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.16"/>
+  <rect x="80" y="90" width="1240" height="660" rx="36" fill="none" stroke="#000000" stroke-width="8" opacity="0.32"/>
+</svg>

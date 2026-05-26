@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7410 3900" role="img" aria-labelledby="title desc">
+  <title id="title">United States flag</title>
+  <desc id="desc">A vector United States flag with thirteen red and white stripes, a blue canton, and fifty white stars.</desc>
+  <rect width="7410" height="3900" fill="#fff"/>
+  <g fill="#B22234">
+    <rect width="7410" height="300" y="0"/>
+    <rect width="7410" height="300" y="600"/>
+    <rect width="7410" height="300" y="1200"/>
+    <rect width="7410" height="300" y="1800"/>
+    <rect width="7410" height="300" y="2400"/>
+    <rect width="7410" height="300" y="3000"/>
+    <rect width="7410" height="300" y="3600"/>
+  </g>
+  <rect width="2964" height="2100" fill="#3C3B6E"/>
+  <defs>
+    <polygon id="star" points="0,-100 22.451,-30.902 95.106,-30.902 36.327,11.803 58.779,80.902 0,38.197 -58.779,80.902 -36.327,11.803 -95.106,-30.902 -22.451,-30.902" fill="#fff"/>
+  </defs>
+  <g>
+    <g transform="translate(247,210)">
+      <use href="#star" x="0" y="0"/><use href="#star" x="494" y="0"/><use href="#star" x="988" y="0"/><use href="#star" x="1482" y="0"/><use href="#star" x="1976" y="0"/><use href="#star" x="2470" y="0"/>
+      <use href="#star" x="247" y="210"/><use href="#star" x="741" y="210"/><use href="#star" x="1235" y="210"/><use href="#star" x="1729" y="210"/><use href="#star" x="2223" y="210"/>
+      <use href="#star" x="0" y="420"/><use href="#star" x="494" y="420"/><use href="#star" x="988" y="420"/><use href="#star" x="1482" y="420"/><use href="#star" x="1976" y="420"/><use href="#star" x="2470" y="420"/>
+      <use href="#star" x="247" y="630"/><use href="#star" x="741" y="630"/><use href="#star" x="1235" y="630"/><use href="#star" x="1729" y="630"/><use href="#star" x="2223" y="630"/>
+      <use href="#star" x="0" y="840"/><use href="#star" x="494" y="840"/><use href="#star" x="988" y="840"/><use href="#star" x="1482" y="840"/><use href="#star" x="1976" y="840"/><use href="#star" x="2470" y="840"/>
+      <use href="#star" x="247" y="1050"/><use href="#star" x="741" y="1050"/><use href="#star" x="1235" y="1050"/><use href="#star" x="1729" y="1050"/><use href="#star" x="2223" y="1050"/>
+      <use href="#star" x="0" y="1260"/><use href="#star" x="494" y="1260"/><use href="#star" x="988" y="1260"/><use href="#star" x="1482" y="1260"/><use href="#star" x="1976" y="1260"/><use href="#star" x="2470" y="1260"/>
+      <use href="#star" x="247" y="1470"/><use href="#star" x="741" y="1470"/><use href="#star" x="1235" y="1470"/><use href="#star" x="1729" y="1470"/><use href="#star" x="2223" y="1470"/>
+      <use href="#star" x="0" y="1680"/><use href="#star" x="494" y="1680"/><use href="#star" x="988" y="1680"/><use href="#star" x="1482" y="1680"/><use href="#star" x="1976" y="1680"/><use href="#star" x="2470" y="1680"/>
+    </g>
+  </g>
+</svg>
