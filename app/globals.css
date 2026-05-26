@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --solace-bg: #f7f7f5;
+  --solace-ink: #071021;
+  --solace-muted: #64748b;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--solace-bg); color: var(--solace-ink); }
+::selection { background: #0f172a; color: #ffffff; }
+
+.solace-reveal { animation: solaceReveal 760ms ease-out both; }
+.solace-reveal-delay { animation: solaceReveal 760ms ease-out 140ms both; }
+.solace-reveal-delay-2 { animation: solaceReveal 760ms ease-out 260ms both; }
+.solace-orb { animation: solacePulse 8s ease-in-out infinite; }
+
+@keyframes solaceReveal {
+  from { opacity: 0; transform: translateY(16px); filter: blur(2px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+@keyframes solacePulse {
+  0%, 100% { opacity: 0.45; transform: scale(1); }
+  50% { opacity: 0.75; transform: scale(1.06); }
+}
